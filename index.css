@@ -1,0 +1,72 @@
+span {
+  color: red;
+  padding-left: 2px;
+}
+
+b {
+  font-size: 15px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+p {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 15px;
+  margin: 20px 0;
+}
+
+th[scope="col"] {
+  text-align: center;
+}
+
+th[scope="row"] {
+  text-align: left;
+}
+
+th {
+  font-weight: lighter;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+td {
+  text-align: center;
+}
+
+input[type="radio"] {
+    width: 16px;
+    height: 16px;
+    vertical-align: middle;
+}
+
+
+.table {
+  margin-top: 1rem;
+}
+
+.form-group {
+  margin-left: 30px;
+}
+
+.text-muted {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.table-sm {
+  padding: 2px;
+}
+
+.star-rating .fa {
+  color: #ddd;
+  cursor: pointer;
+}
+
+.star-rating {
+  display: flex;
+  justify-content: flex-end;
+  flex-direction: row-reverse;
+}
+
+/* Update hover effect to only affect hovered star and previous ones */
+.star-rating .fa:hover,
+.star-rating .fa:hover ~ .fa {
+  color: #f0ad4e;
+}
